@@ -3,7 +3,7 @@ import datetime
 import config
 import logging
 
-from utils.database import Database
+from filmedb.database import Database
 
 database = Database(DATABASE_URI, "epic_bot")  
 
