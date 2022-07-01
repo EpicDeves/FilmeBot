@@ -17,15 +17,13 @@ import datetime
 import os
 import random
 import logging
-from sinhala import *
-from english import *
 from pyrogram.errors.exceptions.bad_request_400 import *
 from pyrogram.errors import *
 from pyrogram.types import *
 from helper.decorators import humanbytes
 from asyncio import *
 import requests
-from utils.database import Database
+from filmedb.database import Database
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import *
