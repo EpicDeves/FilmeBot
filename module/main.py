@@ -30,7 +30,7 @@ from pyrogram.types import *
 from pyrogram.types import Message
 
 from config import *
-from utils import Media, unpack_new_file_id
+from filmedb import Media, unpack_new_file_id
 
 logger = logging.getLogger(__name__)
 
