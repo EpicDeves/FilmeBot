@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/ab009c52a63c9ed7c9fcb.jpg">
+  <img src="https://telegra.ph/file/46b27117f661c627359af.jpg">
 </p>
 
 ## Deploy To Heroku 🔥
