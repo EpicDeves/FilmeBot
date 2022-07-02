@@ -23,7 +23,7 @@ from pyrogram.types import *
 from helper.decorators import humanbytes
 from asyncio import *
 import requests
-from filmedb.database import Database
+from database.database import Database
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import *
