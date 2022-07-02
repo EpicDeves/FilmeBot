@@ -31,6 +31,7 @@ from pyrogram.types import Message
 
 from config import *
 from filmedb import Media, unpack_new_file_id
+from database import Media, unpack_new_file_id
 
 logger = logging.getLogger(__name__)
 
@@ -70,7 +71,7 @@ async def startprivates(client, message):
     file_id = "CAACAgUAAxkBAAEFIihiuYjFehkzzJg6fBsp9NSddE2QSQACsAYAAseOyVXbaQF75owUgCkE"
     await client.send_sticker(message.chat.id, file_id)
     text = f"Hi {message.from_user.mention}, 🌼Choose language To Continue "
-    reply_markup = COMMAND_LANGBTN
+    reply_markup = ST_BTN
     await message.reply_text(
         text=text,
         reply_markup=reply_markup,
@@ -79,3 +80,8 @@ async def startprivates(client, message):
     )
         
 #=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+
+ST_BTN = ([[
+InlineKeyboardButton ('Channel', 'https://t.me/EpicBotsSl')
+  ]
+]
